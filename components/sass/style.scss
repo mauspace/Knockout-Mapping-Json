@@ -1,0 +1,19 @@
+// style.scss
+// ==============
+ 
+//Compass imports
+@import "compass";
+@import "compass/reset";
+@import "compass/css3/box-shadow";
+
+//External Libraries
+
+ 
+//Core partials
+@import "variables";
+@import "mixins";
+@import "base";
+@import "modules";
+ 
+
+

@@ -1,0 +1,13 @@
+{
+  "site": {
+    "header": {
+      "text1": "Home",
+      "text2": "What we do"
+    },
+    "body": {
+      "text1": "International Day against Nuclear Tests [ INSERT DATE ] - ",
+      "text2": "On 2 December 2009, the 64th session of the United Nations General Assembly declared 29 August the International Day against Nuclear Tests by unanimously adopting resolution 64/35. The resolution calls for increasing awareness and education “about the effects of nuclear weapon test explosions or any other nuclear explosions and the need for their cessation as one of the means of achieving the goal of a nuclear-weapon-free world.”"
+    },
+    "textON": []
+  }
+}

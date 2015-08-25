@@ -1,0 +1,29 @@
+// _base.scss
+// ==============
+body{
+  font-family: $headFont, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.2em;
+  position: relative;
+  background-color: #ccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headFont, sans-serif;
+
+}
+section {
+  padding: 10px 0;
+}
+
+a textarea{
+  display:none
+}
+
+
+
+
+
+
+

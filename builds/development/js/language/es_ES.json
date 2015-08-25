@@ -1,0 +1,13 @@
+{
+  "site": {
+    "header": {
+      "text1": "Portada",
+      "text2": "Que hacemos"
+    },
+    "body": {
+      "text1": "Día Internacional contra los Ensayos Nucleares [ INSERT DATE ] - ",
+      "text2": "La resolución de la Asamblea General fue propuesta por la República de Kazajstán con el fin de conmemorar la clausura del polígono de ensayos nucleares de Semipalatinsk el 29 de agosto de 1991. El Día tiene por objeto alentar a las Naciones Unidas, los Estados Miembros, las organizaciones intergubernamentales y no gubernamentales, las instituciones académicas, las redes de juventud y los medios de difusión social a que informen de la necesidad de prohibir los ensayos de armas nucleares, como un paso importante hacia el logro de un mundo más seguro, y a que eduquen y sensibilicen al público al respecto."
+    },
+    "textON": []
+  }
+}

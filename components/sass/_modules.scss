@@ -1,0 +1,154 @@
+/* ==========================================================================
+Header Navigation
+========================================================================== */
+header .navbar {
+padding: 10px 0;
+transition: all .5s ease-out;
+}
+header .navbar-default {
+background-color: transparent;
+border: none;
+background-color: rgba(0,0,0, .9);
+display: inline-block;
+vertical-align: top;
+height: 110px;
+font-family: $headFont, Arial, sans-serif;
+letter-spacing: 1px;
+text-transform: uppercase
+}
+
+header .navbar-default .navbar-nav a {
+color: $ig-white;
+padding: 5px 8px;
+display: block;
+font-size: 14px;
+line-height: 16px;
+height: 16px;
+padding: 15px 11px 24px;
+-webkit-transition: opacity .6s cubic-bezier(.165, .84, .44, 1);
+transition: opacity .6s cubic-bezier(.165, .84, .44, 1)
+}
+
+header .navbar-default .navbar-nav a:hover {
+color: $ig-white;
+opacity: .9
+}
+
+header .navbar-default .navbar-nav a:focus {
+color: $ig-white;
+opacity: .9;
+}
+
+header .navbar-default .navbar-nav .active a {
+font-weight: 700;
+color: $ig-white;
+background: transparent;
+border-bottom: 1px solid $ig-white;
+text-shadow: none;
+opacity: .9
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+color: $ig-white;
+background: transparent;
+text-shadow: none;
+opacity: .9
+}
+
+
+
+/**  Navbar Brand **/
+
+header .navbar-brand {
+background:url("http://knockoutjs.com/img/ko-logo.png"); 
+background-repeat: no-repeat;
+background-position: 0 0;
+width: 400px;
+height: 80px;
+margin-top: 0px;
+margin-left: 10px;
+
+}
+
+/**  Navbar Toggle **/
+header .navbar-toggle {
+background-color: #000;
+}
+
+header .navbar-default .navbar-toggle .icon-bar {
+background-color: white
+}
+
+@media only screen
+and (max-width: 768px) {
+header .navbar-collapse.in {
+background-color: rgba(0,0,0, .9);
+}
+header .navbar-brand {
+width: 200px;
+background-size: 90%;
+margin: 5px 10px;
+
+
+}
+}
+
+
+
+
+
+/* ==========================================================================
+Button language Navigation
+========================================================================== */
+.active-language{
+display:none
+
+}
+.language-button {
+text-transform: uppercase;
+color: #848689;
+text-decoration: none;
+}
+.language-button .lang.active,
+.language-button .langnow.active {
+color: red;
+}
+.language-button:hover {
+text-decoration: none;
+}
+.language-button:hover i {
+color: $ig-white;
+}
+.language-button:hover span span {
+color: $ig-white;
+}
+.knockout-container{
+height:100%
+}
+
+/* ==========================================================================
+Button language Navigation
+========================================================================== */
+.page {
+padding: 100px 0;
+}
+
+.page h2 {
+text-align: center;
+margin-bottom: 30px;
+}
+.page h2 b{
+color: red;
+}
+.page p {
+margin-top: 10px;
+}
+
+
+
+/**  Page -- Mission **/
+#mission {
+background-color: #E4D29D;
+background-image: linear-gradient(to bottom, $ig-white, #F0FCF5);
+border-top: 20px solid rgba(17, 152, 72, 1);
+}
